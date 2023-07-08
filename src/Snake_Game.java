@@ -3,7 +3,6 @@ import javax.swing.*;
 public class Snake_Game extends JFrame {
 
     Board board;
-
     Snake_Game(){
         board = new Board();
         add(board);
